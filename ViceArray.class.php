@@ -4,11 +4,11 @@
  * User: Денис Орлов http://denisorlovmusic.ru/
  * Date: 01.10.16
  * Time: 22:40
-
-Generate class implementation from array, for using instead array
-examples: 
-	$arr = $_SERVER; // for example
-	echo '<textarea style="width: 99%;height: 30em;" >'.ViceArray::generateClass($arr).'</textarea>';
+ * 
+ * Generate class implementation from array, for using instead array
+ * examples: 
+ * 	$arr = $_SERVER; // for example
+ * 	echo '<textarea style="width: 99%;height: 30em;" >'.ViceArray::generateClass($arr).'</textarea>';
  */
 abstract class ViceArray{
     protected $_arr = array();
